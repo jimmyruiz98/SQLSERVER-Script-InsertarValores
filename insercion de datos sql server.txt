@@ -1,0 +1,36 @@
+insert into ALQUILER_LIBRO values
+	(1,1,'ASWU77','19-06-20','14:20 pm','1','22-06-20'),
+	(2,2,'KFD876','19-06-20','14:39 pm','2','22-06-20'),
+	(3,3,'ASWU77','24-07-20','08:20 am','3','27-67-20'),
+	(4,4,'KIL928','1-08-20','11:00 am','4','4-08-20'),
+	(5,5,'QOE432','15-08-20','18:50 pm','5','18-08-20')
+
+
+
+
+insert into CLIENTE values
+(1,'Jimmy Enrique','Giler Ruiz','1317001996','0987654321','jimmy@gmail.com','Barrio Santa Ana'),
+	(2,'Cinthia Monserrate','Roldan Cedeño','1758483233','0993232232','cinthia@gmail.com','La Pradera'),
+	(3,'Jennifer Antonella','Pico Holguin','1301223299','0982311233','jennifer@gmail.com','El Chorrillo'),
+	(4,'Edgar Alexander','Chavez Zambrano','1317653887','0988672317','edgar@gmail.com','Barrio Cuba'),
+	(5,'Josue Miguel','Cobos Rodriguez','1310982731','09879086352','josue@gmail.com','Monterrey')
+
+
+
+
+insert into GENERO_LIBRO values
+	(1,'Caballeresco'),
+	(2,'Caballeresco'),
+	(3, 'Aventura'),
+	(4,'Novela'),
+	(5,'Bibliografias')
+
+
+
+insert into LIBRO values
+(1,1,1,'La Odisea','Amaya','Migeul de Cervantes','2018','430', '0'),
+	(2,2,2, 'Monarquia','Andina','Willian Faulkner','2016', '200', '15'),
+	(3,3,3, 'El Principito', 'Andina','Antoine Saint-Exupery','1996','300','30'),
+	(4,4,4, 'Diplomacia','S.M.','Henrry kissinger','1997','200','25'),
+	(5,5,5, 'Los Windsor', 'Plaza  y Janes','Kitty Kelley','1998', '900', '40');
+
